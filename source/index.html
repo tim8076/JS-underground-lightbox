@@ -1,0 +1,46 @@
+---
+title: 首頁
+layout: ./source/layout.ejs
+engine: ejs
+current: index
+---
+<div class="container">
+  <div class="gallery grid-container" data-grid-container>
+    <h1>FOX <br> EVERYWHERE</h1>
+    <!-- <div class="grid-item">
+      <div class="imgBox">
+        <img
+          src="https://images.unsplash.com/photo-1540428562593-4d82f4083688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          class="image" alt="img">
+      </div>
+    </div> -->
+</div>
+
+<div class="modal" data-modal>
+  <div class="container grid-container">
+    <div class="text">
+      <div class="number">
+        <span class="current-number" data-modal-image-number>1</span>
+        <span class="total-number">/ 6</span>
+      </div>
+      <div class="slogan">
+        <h2>Have you ever seen the cute fox before?</h2>
+        <p class="author">—Erik Mclean</p>
+      </div>
+    </div>
+    <div class="image-area">
+      <img src="https://images.unsplash.com/photo-1540428562593-4d82f4083688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt="image"
+      data-modal-image>
+      <button type="button" class="btn close-btn" data-modal-close-btn>
+        <i class="fa-solid fa-circle-xmark"></i>
+      </button>
+      <button type="button" class="btn arrow-btn left" data-modal-left-button>
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button type="button" class="btn arrow-btn right" data-modal-right-button >
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+  </div>
+</div>
