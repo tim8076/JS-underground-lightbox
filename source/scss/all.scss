@@ -79,7 +79,7 @@ h1 {
     grid-column: span 6;
   }
 
-  @media(max-width: 768px) {
+  @media(max-width: 767px) {
     grid-column: span 12;
   }
   &::after {
@@ -130,6 +130,12 @@ h1 {
   }
 }
 
+.modal .grid-container {
+  @media(max-width: 960px) {
+    align-content: center;
+  }
+}
+
 .modal .text {
   grid-column: span 3;
   display: flex;
@@ -173,8 +179,11 @@ h1 {
   @media(max-width: 960px) {
     grid-column: 2 / span 10;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 767px) {
     grid-column: span 12;
+    img {
+      height: 240px;
+    }
   }
   .close-btn{
     position: absolute;
